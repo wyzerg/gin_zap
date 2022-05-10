@@ -1,0 +1,4 @@
+{"level":"ERROR","time":"2022-05-10T13:35:42.198+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}
+{"level":"ERROR","time":"2022-05-10T13:41:02.697+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}
+{"level":"ERROR","time":"2022-05-10T13:41:05.551+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}
+{"level":"ERROR","time":"2022-05-10T13:41:11.142+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}

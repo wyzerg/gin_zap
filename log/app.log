@@ -1,0 +1,13 @@
+{"level":"INFO","time":"2022-05-10T13:35:42.198+0800","caller":"controller/hello.go:9","msg":"req hello"}
+{"level":"ERROR","time":"2022-05-10T13:35:42.198+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}
+{"level":"INFO","time":"2022-05-10T13:35:42.198+0800","caller":"middleware/middleware.go:24","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36","errors":"","cost":468}
+{"level":"INFO","time":"2022-05-10T13:41:02.697+0800","caller":"controller/hello.go:9","msg":"req hello"}
+{"level":"ERROR","time":"2022-05-10T13:41:02.697+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}
+{"level":"INFO","time":"2022-05-10T13:41:02.697+0800","caller":"middleware/middleware.go:24","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36","errors":"","cost":296}
+{"level":"INFO","time":"2022-05-10T13:41:05.551+0800","caller":"controller/hello.go:9","msg":"req hello"}
+{"level":"ERROR","time":"2022-05-10T13:41:05.551+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}
+{"level":"INFO","time":"2022-05-10T13:41:05.551+0800","caller":"middleware/middleware.go:24","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"Asd","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36","errors":"","cost":108}
+{"level":"INFO","time":"2022-05-10T13:41:11.142+0800","caller":"controller/hello.go:9","msg":"req hello"}
+{"level":"ERROR","time":"2022-05-10T13:41:11.142+0800","caller":"controller/hello.go:10","msg":"测试错误日志"}
+{"level":"INFO","time":"2022-05-10T13:41:11.142+0800","caller":"middleware/middleware.go:24","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"Asd=asd","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36","errors":"","cost":171}
+{"level":"INFO","time":"2022-05-10T13:41:15.012+0800","caller":"middleware/middleware.go:24","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36","errors":"","cost":3}

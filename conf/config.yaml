@@ -1,0 +1,20 @@
+name: myapp
+mode: debug
+version: v1.0
+port: 8080
+
+log:
+  level: debug
+  filename: ./log/app.log
+  max_size: 400
+  max_age: 30
+  max_backups: 15
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: root1234
+  db: db1
+  max_open_conns: 100
+  max_idle_conns: 20
